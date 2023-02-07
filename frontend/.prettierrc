@@ -1,0 +1,22 @@
+{
+    "semi": false,
+    "singleQuote": true,
+    "bracketSpacing": true,
+    "arrowParens": "avoid",
+    "printWidth": 100,
+    "overrides": [
+      {
+        "files": "*.test.js",
+        "options": {
+          "semi": true
+        }
+      },
+      {
+        "files": ["*.html", "legacy/**/*.js"],
+        "options": {
+          "tabWidth": 4,
+          "bracketSameLine": true
+        }
+      }
+    ]
+  }
